@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #1F2124;
+	font-family: Inter, sans-serif;
+}
+
+.container {
+	width: 317px;
+	background-color: #181A1D;
+	border-radius: 10px 10px;
+	overflow: hidden;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info img {
+	width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+}
+
+.info h1 {
+	margin-top: 21px;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.info h4 {
+	margin-top: 6px;
+	font-size: 12.8px;
+	font-weight: 400;
+	color: #f3bf99;
+}
+
+.info p {
+	margin-top: 9px;
+	font-size: 10.24px;
+	font-weight: 400;
+	color: #f5f5f5;
+}
+
+.buttons {
+	margin-top: 15px;
+	display: flex;
+	gap: 17px;
+}
+
+.buttons button {
+	cursor: pointer;
+	width: 115px;
+	padding: 9px 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 6px;
+	border: none;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.buttons button:last-child {
+	background-color: #5093e2;
+	color: white;
+}
+
+.buttons img {
+	display: inline;
+	width: 16px;
+}
+
+.about {
+	margin-top: 33px;
+}
+
+.interests {
+	margin-block: 27px 24px;
+}
+
+.about,
+.interests {
+	margin-inline: 35px;
+}
+
+.about h2,
+.interests h2 {
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.about p,
+.interests p {
+	margin-top: 5px;
+	font-size: 10.24px;
+	color: #dcdcdc;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #161619;
+	gap: 24px;
+	height: 64px;
+}
+
+footer > button {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+}
