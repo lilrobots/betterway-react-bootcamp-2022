@@ -9,7 +9,7 @@ export default function Info() {
 				src={gibbonImg}
 				alt="Close-up of the one and only gibbon developer."
 			/>
-			<h1>Gabriel Luis</h1>
+			<h1>Gabriel Gibbon</h1>
 			<h4>Full-Stack Developer</h4>
 			<p>gibbondev.com</p>
 			<div className="buttons">

@@ -3,7 +3,7 @@ export default function Interests() {
 		<div className="interests">
 			<h2>Interests</h2>
 			<p>
-				Nature, yoga, calisthenics, football (soccer), traveling and technology.
+				Nature, yoga, calisthenics, traveling and technology.
 			</p>
 		</div>
 	);
