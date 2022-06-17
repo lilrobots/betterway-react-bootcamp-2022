@@ -1,127 +1,95 @@
 * {
-	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
+	font-family: "Karla", sans-serif;
+	margin: 0;
+}
+
+main {
+	padding: 36px;
+}
+
+.header {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	min-height: 100vh;
-	background-color: #1F2124;
-	font-family: Inter, sans-serif;
-}
-
-.container {
-	width: 317px;
-	background-color: #181A1D;
-	border-radius: 10px 10px;
-	overflow: hidden;
-}
-
-.info {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.info img {
-	width: 100%;
-	aspect-ratio: 1;
-	object-fit: cover;
-}
-
-.info h1 {
-	margin-top: 21px;
-	font-size: 25px;
-	color: #ffffff;
-}
-
-.info h4 {
-	margin-top: 6px;
-	font-size: 12.8px;
-	font-weight: 400;
-	color: #f3bf99;
-}
-
-.info p {
-	margin-top: 9px;
-	font-size: 10.24px;
-	font-weight: 400;
-	color: #f5f5f5;
-}
-
-.buttons {
-	margin-top: 15px;
-	display: flex;
-	gap: 17px;
-}
-
-.buttons button {
-	cursor: pointer;
-	width: 115px;
-	padding: 9px 11px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 8px;
-	border-radius: 6px;
-	border: none;
-	font-weight: 500;
-	font-size: 14px;
-}
-
-.buttons button:last-child {
-	background-color: #5093e2;
+	height: 65px;
+	background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 	color: white;
+	padding: 20px;
 }
 
-.buttons img {
-	display: inline;
-	width: 16px;
+.header-image {
+	height: 100%;
+	margin-right: 6px;
 }
 
-.about {
-	margin-top: 33px;
+.header-title {
+	font-size: 1.25rem;
+	margin-right: auto;
 }
 
-.interests {
-	margin-block: 27px 24px;
+.header-project {
+	font-size: 0.75rem;
+	font-weight: 500;
 }
 
-.about,
-.interests {
-	margin-inline: 35px;
+.form {
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+	gap: 17px;
+	margin-bottom: 17px;
 }
 
-.about h2,
-.interests h2 {
-	font-size: 16px;
-	color: #f5f5f5;
+.form-input {
+	font-family: "Karla", sans-serif;
+	border-radius: 5px;
+	border: 1px solid #d5d4d8;
+	text-indent: 5px;
 }
 
-.about p,
-.interests p {
-	margin-top: 5px;
-	font-size: 10.24px;
-	color: #dcdcdc;
-}
-
-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #161619;
-	gap: 24px;
-	height: 64px;
-}
-
-footer > button {
-	background: none;
+.form-button {
+	grid-column: 1 / -1;
+	font-family: "Karla", sans-serif;
+	border-radius: 5px;
+	background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+	color: white;
 	border: none;
-	padding: 0;
 	cursor: pointer;
-	width: 25px;
-	height: 25px;
+}
+
+.meme {
+	position: relative;
+}
+
+.meme-image {
+	border-radius: 3px;
+	width: 90vw;
+}
+
+.meme-text {
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 15px 0;
+	padding: 0 5px;
+	font-family: impact, sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+		-2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+		2px 2px 5px #000;
+}
+
+.bottom {
+	bottom: 0;
+}
+
+.top {
+	top: 0;
 }
